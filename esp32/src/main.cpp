@@ -18,6 +18,6 @@ void loop()
   String jsonPayLoad = createJsonDoccument(getTimeFromAPI(), macList);
   Serial.println("Time from API Server");
   Serial.println(getTimeFromAPI());
-  postRequest(serverURL, jsonPayLoad);
+  postRequest(apiKey, serverURL, jsonPayLoad);
   delay(30000);
 }
