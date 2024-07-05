@@ -3,6 +3,6 @@
 
 #include <HTTPClient.h>
 
-String postRequest(String url, String json);
+String postRequest(String apiKey, String url, String json);
 
 #endif
